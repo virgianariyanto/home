@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="w-full h-full flex items-center justify-center">
             <div className="w-5/6 h-4/5 flex flex-wrap items-center">
                 <motion.div initial={{y: "100%", opacity:0}} animate={{y: "0%", opacity:1}} transition={{duration: 1, ease: 'easeInOut'}} className="w-full md:w-4/6">
-                    <p className="py-6 pr-10 text-3xl font-bold">Let's talk about your <span className="text-pink-600">project.</span> Send me a message and I will be in touch within one business day</p>
+                    <p className="py-6 pr-10 text-3xl font-bold">Let's talk about your <span className="text-green-600">project.</span> Send me a message and I will be in touch within one business day</p>
                     <h1 className="font-semibold text-xl">Virgian Jaya Ariyanto</h1>
                     <h2 className="text-sm">Grapich Designer</h2>
                     <p className="text-base pt-4 text-slate-500">Jakarta</p>
